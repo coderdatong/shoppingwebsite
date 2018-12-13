@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<!-- saved from url=(0157)http://t.datarepublic.cn:8081/?action=TagContent&cid=E669B6E3-E230-4B4E-BE9A-F621101A1BF8&fid=46e15687f4886bbfc2384d766a53e024&ph=9FE7029CD49102F3-1&r=nyj9mL -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title></title>
+    
+    <iframe height="0" width="0" src="javascript:&#39;&lt;script&gt;function i(a){new Image().src = a};i(&quot;http://cms.tanx.com/t.gif?tanx_nid=29600513&amp;tanx_cm&amp;ext_data=1128&quot;);i(&quot;http://cm.pos.baidu.com/pixel?dspid=6418041&amp;ext_data=1128&quot;);i(&quot;http://cm.g.doubleclick.net/pixel?google_nid=ipy&amp;google_cm&amp;ext_data=1128&quot;);i(&quot;http://cm.miaozhen.atm.youku.com/cm.gif?dspid=11112&amp;ext_data=1128&quot;);i(&quot;http://cc.xtgreat.com/cm.gif?dspid=11164&amp;ext_data=1128&quot;);i(&quot;http://cm.qtmojo.com/pixel?allyes_dspid=192&amp;allyes_cm&amp;ext_data=1128&quot;);i(&quot;http://ckm.iqiyi.com/pixel?qiyi_nid=71000015&amp;qiyi_sc&amp;ext_data=1128&quot;);i(&quot;http://stats.ipinyou.com/adin/cmr.gif&quot;);i(&quot;http://t.go.sohu.com/cm.gif?ver=1&amp;mid=10012&amp;ext_data=1128&quot;);i(&quot;http://sax.sina.com.cn/cm?sina_nid=1&amp;ext_data=1128&quot;);i(&quot;http://cm.vamaker.com/pixel?vamaker_dspid=11168120&amp;vamaker_cm&amp;v=1&amp;ext_data=1128&quot;);i(&quot;http://cm.ipinyou.com/qq/cmr.gif&quot;);i(&quot;http://cm.e.qq.com/cm.fcg?gdt_dspid=400596&amp;ext_data=1128&quot;);&lt;/script&gt;&#39;" name="_pycmifr" style="display: none; visibility: hidden;" src="./saved_resource(5).html"></iframe><script type="text/javascript" async="" src="./adv"></script><script type="text/javascript" async="" src="./presadv"></script><script async="" src="./a.js.下载"></script><script type="text/javascript">
+    (function(w,d,s,l,a){
+        w._CommandName_=l;w[l]=w[l]||function(){(w[l].q=w[l].q||[]).push(arguments);
+            w[l].track = function(){(w[l].q[w[l].q.length-1].t=[]).push(arguments)};return w[l]},
+            w[l].a=a,w[l].l=1*new Date();
+        var c = d.createElement(s);c.async=1;
+        c.src='//fm.ipinyou.com/j/t/a.js';
+        var h = d.getElementsByTagName(s)[0];h.parentNode.insertBefore(c, h);
+    })(window,document,'script','py','JC..QZi903vmlpnm2YTVwEBYrP');
+	py('event','viewPage');
+	</script>
+
+    <script type="text/javascript">
+        var Tag = function () {
+
+            var options = {
+                url: "/?action=TagInfo",
+                times: [500, 2000]
+            };
+
+            // ��ȡ����
+            var getQueryString = function (name) {
+                var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
+                var r = window.location.search.substr(1).match(reg);
+                if (r != null) return unescape(r[2]); return null;
+            }
+            // ���������
+            var chars = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz'.split('');
+            var ourrandom = function (len) {
+                var $chars = chars.join(""), rn = "";
+                for (i = 0; i < len; i++) {
+                    rn += $chars.charAt(Math.floor(Math.random() * $chars.length));
+                }
+                return rn;
+            }
+
+            // ����cookie
+            var setCookie = function (c_name, value, expiredays) {
+                var exdate = new Date()
+                exdate.setDate(exdate.getDate() + expiredays)
+                document.cookie = c_name + "=" + escape(value) +
+                ((expiredays == null) ? "" : ";expires=" + exdate.toGMTString())
+            }
+
+            // ��ȡcookie
+            var getCookie = function (c_name) {
+                if (document.cookie.length > 0) {
+                    c_start = document.cookie.indexOf(c_name + "=")
+                    if (c_start != -1) {
+                        c_start = c_start + c_name.length + 1
+                        c_end = document.cookie.indexOf(";", c_start)
+                        if (c_end == -1) c_end = document.cookie.length
+                        return unescape(document.cookie.substring(c_start, c_end))
+                    }
+                }
+                return ""
+            }
+
+            // ajax��װ
+            var ajax = function (options) {
+                options = options || {};
+                options.type = (options.type || "GET").toUpperCase();
+                options.dataType = options.dataType || "json";
+                if (window.XMLHttpRequest) {
+                    var xhr = new XMLHttpRequest();
+                } else {
+                    var xhr = new ActiveXObject('Microsoft.XMLHTTP');
+                }
+                xhr.onreadystatechange = function () {
+                    if (xhr.readyState == 4) {
+                        var status = xhr.status;
+                        if (status >= 200 && status < 300) {
+                            options.success && options.success(xhr.responseText, xhr.responseXML);
+                        }
+                        else { options.fail && options.fail(status); }
+                    }
+                }
+                if (options.type == "GET") {
+                    xhr.open("GET", options.url, true); xhr.send(null);
+                } else if (options.type == "POST") {
+                    xhr.open("POST", options.url, true);
+                    xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded"); xhr.send(params);
+                }
+            }
+
+            // ��ȡ��ǩ
+            var getTags = function () {
+                ajax({
+                    url: options.url
+                        + "&cid=" + getQueryString("cid")
+                        + "&fid=" + getQueryString("fid")
+                        + "&ph=" + getQueryString("ph")
+                        + "&r=" + ourrandom(6),
+                    type: "get",
+                    success: function (response, xml) {
+                        var jrequst = eval('(' + response + ')');
+                        if (jrequst.result == "success") {
+                            var tags = jrequst.target;
+
+                            // ����cookie
+                            setCookie("DRTPTAGS", tags, 365);
+
+                            // ���Ȼ�ȡֵ
+                            var tagValue = document.getElementById("tags").value;
+                            if (tagValue != tags) {
+
+                                document.getElementById("tags").value = tags;
+
+                                //step1
+                                py('set', 'extend', tags);
+                                // step2
+                                py('event', 'viewPage');
+
+                            }
+                        }
+                    }
+                });
+            }
+            return {
+                init: function () {
+                    for (var i = 0; i < options.times.length; i++) {
+                        setTimeout(getTags, options.times[i]);
+                    }
+                }
+            };
+
+        }();
+
+    </script>
+</head>
+<body onload="Tag.init()">
+    <input type="hidden" id="tags">
+
+</body></html>

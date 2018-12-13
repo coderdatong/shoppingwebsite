@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'FuturaBT-Book';
+    src: url('/webfonts/futura_book.eot');
+    src: url('/webfonts/futura_book.eot?#iefix') format('embedded-opentype'),
+		 url('/webfonts/futura_book.svg#FuturaBT-Book') format('svg'),
+		 url('/webfonts/futura_book.woff') format('woff'),
+		 url('/webfonts/futura_book.ttf') format('truetype');
+		 font-weight:normal;
+		 font-style:normal;		
+}
+
+@font-face {
+    font-family: 'Futura-Lt-BT';
+    src: url('/webfonts/FuturaBTW01Light.eot');
+    src: url('/webfonts/FuturaBTW01Light.eot?#iefix') format('embedded-opentype'),
+		 url('/webfonts/FuturaBTW01Light.svg#FuturaBT-Book-Light') format('svg'),
+		 url('/webfonts/FuturaBTW01Light.woff') format('woff'),         
+		 url('/webfonts/FuturaBTW01Light.ttf') format('truetype');
+		 font-weight:normal;
+		 font-style:normal;	
+}
+
+@font-face {
+    font-family: 'FuturaBT-Book-Heavy';
+    src: url('/webfonts/FuturaBTW01Heavy.eot');
+    src: url('/webfonts/FuturaBTW01Heavy.eot?#iefix') format('embedded-opentype'),
+		 url('/webfonts/FuturaBTW01Heavy.svg#FuturaBT-Book-Heavy') format('svg'),
+		 url('/webfonts/FuturaBTW01Heavy.woff') format('woff'),
+		 url('/webfonts/FuturaBTW01Heavy.ttf') format('truetype');	 
+		 font-weight:normal;
+		 font-style:normal;	
+}
+
+@font-face {
+    font-family: 'Futura-Md-BT';
+    src: url('/webfonts/FuturaBTW01Medium.eot');
+    src: url('/webfonts/FuturaBTW01Medium.eot?#iefix') format('embedded-opentype'),
+		 url('/webfonts/FuturaBTW01Medium.svg#FuturaBT-Book-Medium') format('svg'),
+		 url('/webfonts/FuturaBTW01Medium.woff') format('woff'),
+		 url('/webfonts/FuturaBTW01Medium.ttf') format('truetype');
+		 font-weight:normal;
+		 font-style:normal;	
+}

@@ -1,0 +1,1 @@
+require(["jquery"],function(e){"use strict";e.getScript(lgFilter.locale+"/js/local.js").fail(function(e){})});

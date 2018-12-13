@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" href="css/style.css" />
+		<script type="text/javascript" src="js/phone_varify.js" ></script>
+		<script type="text/javascript" src="js/jquery.min.js" ></script>
+		<script src="js/sweetalert.min.js"></script>
+  		<link rel="stylesheet" type="text/css" href="css/sweetalert.css">
+	</head>
+<body>
+	<section class="container">
+		<article class="half">
+			<h1>Sign UP</h1>
+			
+			<div class="content">
+				<div class="signup-cont cont">
+					<form method="post">
+						
+							<input type="tel" name="tel" id="tel" class="inpt" required="required" placeholder="Your Telephone" maxlength="11">
+							
+							<div class="phone-var">
+								
+						<input type="text" name="code" id="code" class="inpt" required="required" placeholder="Varify Code" maxlength="4">
+							<input type="button" value="Send Code" class="submit" id="send_code" onclick="phone_varify_send();">
+								</div>
+						<div class="submit-wrap">
+							<input type="submit" value="Sign up" class="submit" onclick="phone_varify_code();return false;">
+								<!--<button value="varify" id="submit_form" class="submit" onclick="phone_varify_code()">SIgn up</button>-->
+							<a href="" >Design By A113n</a>
+						</div>
+					</form>
+				</div>
+			</div>
+		</article>
+
+	</section>
+
+</body>
+</html>

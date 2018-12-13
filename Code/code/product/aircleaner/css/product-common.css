@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:600|Oxygen');
+.wrap-content{
+	scroll-behavior: smooth;
+}
+#gotopbtn{
+				display: block;
+				width: 40px;
+				height: 40px;
+				position: fixed;
+				right: 40px;
+				bottom:40px  ;
+				background: floralwhite;
+				background: url(../img/topbtn/back1.png) no-repeat left top ;
+				transition: background-image,background 0.5s;
+				z-index: 999;
+			}
+#gotopbtn:hover{
+				background: url(../img/topbtn/back1.png) no-repeat left -40px;
+}
+.user-tab{
+	margin: auto;
+	max-width: 55%;
+}
+.btn-buy-content{
+
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+	right: 0px;
+	position: absolute;
+
+	vertical-align: middle;
+	font-size: 20px;
+	position: relative;
+	min-width: 50px;
+	padding: 0px 0px 0px 15px;
+
+}
+.btn-buy{
+/*
+		font-family: 'Oxygen', sans-serif;
+		background-color: #393D49;
+		color: #c2c2c2;
+		border: solid 4px #393D49;
+		line-height: 20px;
+		padding-left: 8px;
+		padding-top: 3px;
+		padding-bottom: 3px;
+		padding-right: 8px;
+		border-radius: 7px;
+		cursor: pointer;
+		transition: background-color,color,border-color 0.15s;*/
+		border-radius: 7px;
+}
+.productnamecontent{
+	font-family: 'Oxygen', sans-serif;
+	font-weight: 100;
+	display: inline-block;
+	vertical-align: middle;
+	left: 0px;
+	position: absolute;
+	margin-left: 22%;
+	vertical-align: middle;
+	font-size: 22px;
+	min-width: 50px;
+	padding: 10px 0px 0px 15px;
+}
+#product{
+	margin: 0 0 0 0;
+	padding: 10px 0 0 0;
+}

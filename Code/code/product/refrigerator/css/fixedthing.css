@@ -1,0 +1,15 @@
+.fixedul{
+    padding-left: 22.5%;
+    padding-right: 22.5%;
+    max-width: 55%;
+}
+#fiexedtab{
+    display: none;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+    background-color: rgba(255,255,255,0.85);
+}
+#mytab{
+    margin:0;
+}

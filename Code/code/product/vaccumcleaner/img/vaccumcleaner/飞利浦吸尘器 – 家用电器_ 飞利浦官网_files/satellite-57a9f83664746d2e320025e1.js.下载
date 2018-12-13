@@ -1,0 +1,14 @@
+_satellite.pushAsyncScript(function(event, target, $variables){
+  /*DTM Rule Name: CN ZH MU - Nysnetech
+DTM Conditions:
+country: cn
+sectors: ^CO|HC|CP$
+*/
+
+if(_satellite.getVar('dlRepPath') == '/content/corporate/zh_CN/corporate-homepage/homepage' || _satellite.getVar('dlSector') == 'CP' || _satellite.getVar('dlSector') == 'HC'){
+	var e = document.createElement('script');
+	e.src = 'https://t.datarepublic.cn/js/g.js?key=9FE7029CD49102F3-1&tag=true';
+	e.type = 'text/javascript';
+	document.body.appendChild(e);
+}
+});

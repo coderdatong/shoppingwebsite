@@ -1,0 +1,704 @@
+.appHeader .primary-nav ul.primary-nav-list>li .primary-nav-link, .appHeader .primary-nav ul.primary-nav-list>li .primary-nav-open {padding:0 10px !important; font-size:19px !important;}
+.appHeader .right-side-nav ul li .primary-nav-link, .appHeader .right-side-nav ul li .primary-nav-open {padding:0 10px !important; font-size:19px !important;}
+.appHeader .nav-wrapper.opened .primary-nav {width:auto !important;}
+.appHeader .tablet-sub-nav-wrap .meganav-menu > .container.category-nav a.heading {font-weight:bold !important;}
+.appHeader .tablet-sub-nav-wrap .meganav-menu .text-based .heading {font-weight:bold !important;}
+.appHeader .tablet-sub-nav-wrap .meganav-menu span.heading {font-weight:bold !important;}
+/* LGEGMO-2281 modify */
+.appHeader--signature .primary-nav ul.primary-nav-list>li .primary-nav-link,
+.appHeader--signature .primary-nav ul.primary-nav-list>li .primary-nav-open {font-size:18px !important;padding:0 9px !important;}
+.appHeader--signature .right-side-nav ul li .primary-nav-link,
+.appHeader--signature .right-side-nav ul li .primary-nav-open {font-size:18px !important;}
+@media screen and (max-width:825px) {
+    .appHeader--signature .primary-nav ul.primary-nav-list>li.signature-inline {min-width:0;}
+    .appHeader--signature .primary-nav ul.primary-nav-list>li .primary-nav-link,
+    .appHeader--signature .primary-nav ul.primary-nav-list>li .primary-nav-open {font-size:16px !important}
+    .appHeader--signature .right-side-nav ul li .primary-nav-link,
+    .appHeader--signature .right-side-nav ul li .primary-nav-open {font-size:16px !important;}
+}
+/* LGEGMO-2281 modify */
+#repairMap .BMap_pop {
+    min-width:320px;
+}
+#repairMap .BMap_pop * {
+    box-sizing:content-box;
+}
+#repairMap .BMap_shadow {
+    display:none;
+}
+/* LGECN-2076 : 20160802 modify */
+.yanbao-content { border-top:solid 1px #bbb; padding-top:40px; }
+.yanbao-img-m { display:none; }
+body.is-mobile .yanbao-img-pc { display:none; }
+.yanbao-img-pc img, .yanbao-img-m img {
+    width:100%;
+}
+.yanbao-img { text-align:center; margin-bottom:70px; }
+body.is-mobile .yanbao-img { margin-bottom:30px; }
+body.is-mobile .yanbao-img img { max-width:100%; }
+
+.yanbao-qna-box { padding-top:35px; font-size:20px; }
+.yanbao-qna-box:first-child { padding-top:30px; }
+
+.yanbao-content .tab-style ul li { display: block; }
+.yanbao-content .tab-style ul li:last-child { display: none; }
+
+.yanbao-qna-box * { padding:0; margin:0; }
+.yanbao-qna-box h2 { font-size:30px; margin-bottom:25px; }
+.yanbao-qna-box dt { font-size:26px; padding-bottom:15px; }
+.yanbao-qna-box dd { margin-bottom:35px; }
+.yanbao-qna-box dd .yanbao-answer { padding-left:20px; }
+.yanbao-qna-box dd.answer { padding-left:60px; position:relative; }
+.yanbao-qna-box dd.answer:before { /*content:"嶺뷂폏";*/ color:#666; position:absolute; left:20px; } /* LGECN-2164 20170428 modify */
+.yanbao-qna-box .gray666 { color:#666; padding-bottom:5px; }
+.yanbao-qna-box .text-gray-box { background:#f4f5f7; padding:22px 25px; margin-top:17px; }
+.yanbao-qna-box table { width:100%; table-layout:fixed; border-spacing:0; border-collapse:collapse; }
+.yanbao-qna-box th { font-weight:normal; border-top:solid 1px #bbb; border-bottom:solid 1px #ccc; border-left:solid 1px #ccc; padding:15px; text-align:center; }
+.yanbao-qna-box td { border-bottom:solid 1px #ccc; border-left:solid 1px #ccc; padding:15px; text-align:center; color:#666; }
+.yanbao-qna-box tr th:first-child, .yanbao-qna-box tr td:first-child { border-left:0; }
+.yanbao-qna-box tr:nth-child(odd) td { background:#f5f5f7; }
+.yanbao-qna-box .yanbao-tel { text-align:right; margin:15px 0 35px 0; }
+.yanbao-qna-box .yanbao-tel > strong { color:#a40033; font-size:30px; }
+
+body.is-mobile .yanbao-content { border-top:0; padding-top:0; }
+body.is-mobile .yanbao-content .tab-style ul li a { padding-left:12px; padding-right:12px; }
+body.is-mobile .yanbao-qna-box { font-size:18px; padding:0 20px 25px 20px; }
+body.is-mobile .yanbao-qna-box:first-child { padding-top:30px; }
+body.is-mobile .yanbao-qna-box * { padding:0; margin:0; }
+body.is-mobile .yanbao-qna-box h2 { font-size:24px; margin-bottom:15px; }
+body.is-mobile .yanbao-qna-box dt { font-size:20px; padding-bottom:10px; }
+body.is-mobile .yanbao-qna-box dd { margin-bottom:25px; }
+body.is-mobile .yanbao-qna-box dd .yanbao-answer { padding-left:0; }
+body.is-mobile .yanbao-qna-box dd.answer { padding-left:30px; position:relative; }
+body.is-mobile .yanbao-qna-box dd.answer:before { /*content:"嶺뷂폏";*/ color:#666; position:absolute; left:0; } /* LGECN-2164 20170428 modify */
+body.is-mobile .yanbao-qna-box .text-gray-box { padding:20px; margin-top:15px; }
+body.is-mobile .yanbao-qna-box th, body.is-mobile .yanbao-qna-box td { padding:10px; }
+body.is-mobile .yanbao-qna-box .yanbao-tel { text-align:right; margin:10px 0 25px 0; }
+body.is-mobile .yanbao-qna-box .yanbao-tel > strong { color:#a40033; font-size:24px; }
+
+.yanbao-search { margin-top:30px; font-size:20px; }
+.yanbao-search p,
+.yanbao-search dt,
+.yanbao-search dd { margin:0; padding:0; float:left}
+.yanbao-search h2 { font-size:26px; margin-bottom:13px; }
+.yanbao-search .required-field { text-align:right; margin-top:-35px; padding-bottom:10px; font-size:18px; color:#a40033; }
+.yanbao-search .search-box2 { padding:27px 40px; border-top:1px solid #bbb; border-bottom:1px solid #bbb; background-color:#f4f5f7; }
+
+.yanbao-search .one-column:after { content:"\0020"; display:block; height:0; clear:both; overflow:hidden; visibility:hidden; }
+.yanbao-search .one-column .column { float:right; width:auto; max-width:750px; }
+.yanbao-search .one-column .column:first-child { float:left; }
+.yanbao-search .one-column .column dt { font-size:24px; line-height: 49px;width:auto}
+
+.is-mobile .yanbao-search .one-column .column dt, .is-mobile .yanbao-search .one-column .column dd {width:100%; margin-left:0}
+.is-mobile .yanbao-search .one-column .btn-search {margin-top:0 !important; width:100%}
+
+.yanbao-search .one-column .column dd { position:relative; margin: 5px 20px 0 20px; width:auto}
+.yanbao-search .one-column .column dd input.text { width:100%; font-family:'LGSmartRegular' !important; }
+.yanbao-search .one-column .more-info { position:absolute; bottom:-30px; font-size:20px; font-weight:normal; }
+.yanbao-search .one-column .more-info * {font-family:'LGSmartRegular' !important;}
+.yanbao-search .one-column .more-info .model a { font-size:20px; text-decoration:none; font-weight:normal; color:#333; }
+.yanbao-search .one-column .more-info .model a span { text-decoration:underline; }
+.yanbao-search .one-column .more-info .model a i { font-size:1.6rem; color:#999; }
+.yanbao-search .one-column .btn-search {margin-top:25px !important;}
+.yanbao-search .one-column .btn-search button {font-size:2rem !important; padding: 0.6rem 1.5rem 0.6rem;}
+
+.yanbao-search .two-column:after { content:"\0020"; display:block; height:0; clear:both; overflow:hidden; visibility:hidden; }
+.yanbao-search .two-column .column { float:right; width:48%; max-width:494px; }
+.yanbao-search .two-column .column:first-child { float:left; }
+.yanbao-search .two-column .column dt { font-size:24px;}
+.yanbao-search .two-column .column dd { position:relative; margin-top:5px;}
+.yanbao-search .two-column .column dd input.text { width:100%; font-family:'LGSmartRegular' !important; }
+.yanbao-search .two-column .more-info { position:absolute; bottom:-30px; font-size:20px; font-weight:normal; }
+.yanbao-search .two-column .more-info * {font-family:'LGSmartRegular' !important;}
+.yanbao-search .two-column .more-info .model a { font-size:20px; text-decoration:none; font-weight:normal; color:#333; }
+.yanbao-search .two-column .more-info .model a span { text-decoration:underline; }
+.yanbao-search .two-column .more-info .model a i { font-size:1.6rem; color:#999; }
+
+.yanbao-search .search-box2 .btn-search { margin-top:45px; text-align:right; }
+.yanbao-search .input-guide h3 { margin-top:27px; font-size:20px; }
+.yanbao-search .input-guide dl { overflow:hidden; min-width:100%; }
+.yanbao-search .input-guide dt { position:relative; clear:both; float:left; width:8em; }
+.yanbao-search .input-guide dd { float:left; max-width:80%; padding-left:10px; }
+.yanbao-search .input-guide dt:after { position:absolute; top:0; right:0; content:':'; }
+.yanbao-search .tel { margin-top:20px; padding-left:33px; background:url(/lg4-common-gp/img/product/icon-required-tooltip.png) no-repeat; line-height:20px; }
+.yanbao-search .search-results { margin-top:87px; }
+.yanbao-search .search-results h2 { }
+.yanbao-search .message { }
+.yanbao-search .results-box { margin-top:56px; padding:28px 40px; border-top:1px solid #bbb; border-bottom:1px solid #bbb; }
+.yanbao-search .results-default { padding:32px 0; text-align:center}
+.yanbao-search .results-default * { font-family:'LGSmartRegular' !important; }
+.yanbao-search .results-nodata { display:none; padding:32px 0; text-align:center; color:#666; }
+.yanbao-search .results-nodata * { font-family:'LGSmartRegular' !important; }
+.yanbao-search .results-nodata strong { font-size:26px; font-weight:normal; }
+.yanbao-search .results-nodata p { font-size:20px; }
+.yanbao-search .results-list { display:none; }
+.yanbao-search .results-list table { width:100%; min-width:730px}
+.yanbao-search .results-list table caption {display:none}
+.yanbao-search .results-list th { padding:12px 0; min-width:125px}
+.yanbao-search .results-list td { padding:12px 10px 12px 0; }
+.yanbao-search .results-list td:before { display:inline-block; content:':'; padding:0 18px; }
+
+.yanbao-os { margin-top:30px; }
+.yanbao-os p { margin:0; padding:0; }
+.yanbao-os h2 { font-size:26px; margin-bottom:13px; }
+
+.is-mobile .tab-style { box-sizing:border-box;  }
+.is-mobile .yanbao-search { margin-top:30px; padding:0 20px; font-size:18px; }
+.is-mobile .yanbao-search h2 { font-size:20px; margin-bottom:16px; }
+.is-mobile .yanbao-search .required-field { margin-top:0; font-size:14px;}
+.is-mobile .yanbao-search .search-box2 { margin:0 -20px; padding:25px 20px; border:0; }
+.is-mobile .yanbao-search .two-column .column { float:none; width:100%; max-width:100%; }
+.is-mobile .yanbao-search .two-column .column dt { font-size:18px; }
+.is-mobile .yanbao-search .two-column .more-info { position:static; margin-top:10px; font-size:16px; }
+.is-mobile .yanbao-search .two-column .more-info .model span { font-size:16px; }
+.is-mobile .yanbao-search .two-column .more-info .model a i { font-size:1.4rem; }
+.is-mobile .yanbao-search .search-box2 .btn-search { margin-top:5px; }
+.is-mobile .yanbao-search .search-box2 .btn-search .btn { width:100%; }
+.is-mobile .yanbao-search .input-guide h3 { font-size:20px; }
+.is-mobile .yanbao-search .input-guide dl { display:inline-block; }
+.is-mobile .yanbao-search .input-guide dt { display:inline-block; float:none; }
+.is-mobile .yanbao-search .input-guide dd { display:inline; float:none; }
+.is-mobile .yanbao-search .tel { margin-top:10px; font-size:16px; }
+.is-mobile .yanbao-search .search-results { margin-top:95px; }
+.is-mobile .yanbao-search .search-results h2 { }
+.is-mobile .yanbao-search .message { font-size:16px}
+.is-mobile .yanbao-search .results-box { margin:84px -20px; padding:15px 20px; font-size:16px; }
+.is-mobile .yanbao-search .results-default { padding:32px 0; }
+.is-mobile .yanbao-search .results-nodata strong { font-size:24px; }
+.is-mobile .yanbao-search .results-nodata p { font-size:16px; }
+.is-mobile .yanbao-search .results-list { display:none; }
+.is-mobile .yanbao-search .results-list table { width:100%; min-width: inherit;}
+.is-mobile .yanbao-search .results-list th,
+.is-mobile .yanbao-search .results-list td { padding:12px 0; font-size:18px; }
+.is-mobile .yanbao-search .results-list th {min-width: inherit;}
+.is-mobile .yanbao-search .results-list td:before { display:inline-block; content:':'; padding:0 10px; }
+
+.is-mobile .yanbao-os { margin:30px 0; }
+.is-mobile .yanbao-os h2 { font-size:26px; margin-bottom5px; padding:0 20px; }
+.is-mobile .yanbao-os p { margin:0; padding:0 20px; }
+/* //LGECN-2076 : 20160802 modify */
+@media screen and (min-width:40em) {
+    .support.home .link-area .sub-title,.support.home .support-title .title-head,.support-title .title-head {
+        font-size:20px;
+    }
+    .tip-title, .tit-area h2, .myaccount-home .obs-info .tit-area .tit, .myaccount-home .my-product-registed .tit-area .tit {
+        font-size:20px;
+    }
+    .no-registered strong {
+        font-size:24px;
+    }
+}
+@media screen and (min-width:48em) {
+    .support.home .link-area .sub-title,.support.home .support-title .title-head,.support-title .title-head {
+        font-size:20px;
+    }
+    .tip-title, .tit-area h2, .myaccount-home .obs-info .tit-area .tit, .myaccount-home .my-product-registed .tit-area .tit {
+        font-size:20px;
+    }
+    .contact-area .info-list > li > .inner > strong {
+        font-size:28px;
+        line-height:28px;
+    }
+    .no-registered strong {
+        font-size:24px;
+    }
+}
+@media screen and (min-width:55em) {
+    .support.home .link-area .sub-title,.support.home .support-title .title-head,.support-title .title-head {
+        font-size:36px;
+    }
+    .tip-title, .tit-area h2, .myaccount-home .obs-info .tit-area .tit, .myaccount-home .my-product-registed .tit-area .tit {
+        font-size:28px;
+    }
+    .contact-area .info-list > li > .inner > strong {
+        font-size:28px;
+        line-height:28px;
+    }
+    .no-registered strong {
+        font-size:35px;
+    }
+}
+@media screen and (min-width:64em) {
+    .support.home .link-area .sub-title,.support.home .support-title .title-head,.support-title .title-head {
+        font-size:36px;
+    }
+    .tip-title, .tit-area h2, .myaccount-home .obs-info .tit-area .tit, .myaccount-home .my-product-registed .tit-area .tit {
+        font-size:28px;
+    }
+    .contact-area .info-list > li > .inner > strong {
+        font-size:28px;
+        line-height:28px;
+    }
+    .no-registered strong {
+        font-size:35px;
+    }
+}
+@media screen and (min-width:80em) {
+    .support.home .link-area .sub-title,.support.home .support-title .title-head,.support-title .title-head {
+        font-size:45px;
+    }
+    .tip-title, .tit-area h2, .myaccount-home .obs-info .tit-area .tit, .myaccount-home .my-product-registed .tit-area .tit {
+        font-size:28px;
+    }
+    .contact-area .info-list > li > .inner > strong {
+        font-size:28px;
+        line-height:28px;
+    }
+    .no-registered strong {
+        font-size:35px;
+    }
+}
+@media screen and (min-width:90em) {
+    .support.home .link-area .sub-title,.support.home .support-title .title-head,.support-title .title-head {
+        font-size:45px;
+    }
+    .tip-title, .tit-area h2, .myaccount-home .obs-info .tit-area .tit, .myaccount-home .my-product-registed .tit-area .tit {
+        font-size:28px;
+    }
+    .contact-area .info-list > li > .inner > strong {
+        font-size:28px;
+        line-height:28px;
+    }
+    .no-registered strong {
+        font-size:35px;
+    }
+}
+@media screen and (min-width:100em) {
+    .support.home .link-area .sub-title,.support.home .support-title .title-head,.support-title .title-head {
+        font-size:45px;
+    }
+    .tip-title, .tit-area h2, .myaccount-home .obs-info .tit-area .tit, .myaccount-home .my-product-registed .tit-area .tit {
+        font-size:28px;
+    }
+    .contact-area .info-list > li > .inner > strong {
+        font-size:28px;
+        line-height:28px;
+    }
+    .no-registered strong {
+        font-size:35px;
+    }
+}
+
+/* Share */
+#bdshare_weixin_qrcode_dialog_bg,
+#bdshare_weixin_qrcode_dialog { display:none !important; }
+.product_share > ul.bdsharebuttonbox > li > a { position:static; width:32px; height:32px; left:auto; top:auto; margin:0 6px 0 0; }
+.product_share > ul.bdsharebuttonbox > li.close > a { background:none; float:none; width:27px; height:25px; margin:0; overflow:visible; text-indent:0; }
+.stickynav-m .sticky_wrap .purchase_options .product_share a { display:inline-block; width:32px; margin-bottom:0; }
+.is-mobile .product_share > ul > li { height:35px; text-align:center; }
+.is-mobile .product_share > ul > li a { float:none; width:32px; display:inline-block }
+
+/* locate-repair-center-detail-m */
+.is-mobile .repair-direction .repair-map-section .repair-direction-result .suggest { margin-right:0; }
+.is-mobile #directionResultRroute { margin-right:0 !important; }
+.is-mobile #directionResultRroute table { width:100%; }
+
+/* font resize */
+.module .text-block h1, .module .text-block h3, .feature-explorer-carousel > p, .call-to-action .slide h3, .feature-module .tit span {
+    /*font-size:70px*/
+    font-size:50px;
+    line-height:65px;
+}
+.refind-your-search .column2 h1, .press-release-wrap .press-release-head .title .title-head, .error-page .error-wrap .error-comment h1 {
+    /*font-size:60px;*/
+    font-size:42px;
+    line-height:57px;
+}
+.m15.contact .container-head .tit {
+    /*font-size:55px;*/
+    font-size:40px;
+    line-height:55px;
+}
+/* LGEGMO-2859 20170425 modify */
+.hero .top-module-wrap .text-block h1, .where-to-buy .container .title-wrap .title, .site-map h1, .find-the-right .step-wrap .step-flow-contents h1, .recipie-detail .detail-content h1, .search-wrap .search-top-area .search-keyword, .static-content .title-wrap .title, .compare-view-item .compare-item .compare-count strong, .where-to-buy .container .title-wrap .title, .compare-view-item .compare-title {
+    /*font-size:50px;*/
+    font-size:35px;
+    line-height:50px;
+}
+/* //LGEGMO-2859 20170425 modify */
+.module ul.specs li div, .key-feature h4, .stickynav .product_information .price_after, .tech_spec .tech_spec_wrap table caption, .search-wrap .search-result-area .search-result-list-wrap .list-group .matching-count p.title strong, .promotion-detail .guide-detail-info .detail-title, .error-404 .error-wrap .error-comment h3, .error-page .error-wrap .error-comment strong, .tech_spec .tech_spec_wrap .eco-title {
+    /*font-size:45px;*/
+    font-size:32px;
+    line-height:47px;
+}
+.m15.contact .content-block .content-title, .text-banner h3, .tech_spec .tech_spec_wrap .product-summary td, .static-content .type-paragraph .title {
+    /*font-size:36px;*/
+    font-size:25px;
+    line-height:40px;
+}
+.module .text-block h4, .module .text-block p, .module .text-block h2, .feature-explorer-carousel h3, .step-up-chart .chart-headline h2, .step-up-chart .chart-headline h3, .m14.module .container .title h3, .ask-answer h3, .my-search-box .search-title, .recipie-detail .detail-content .material dl dt, .where-to-buy .container .where-to-buy-info-wrap .where-to-buy-info .store-map-wrap .store-search-category > .title {
+    /*font-size:34px;*/
+    font-size:24px;
+    line-height:39px;
+}
+/* LGEGMO-2859 20170425 modify */
+.module.m05 .slide-content .text-area p, .feature-explorer-carousel .item-image .item-caption, .homepage-content .hc-wrap .cont-box .caption, .feature-module p, .hero p, .hero.text-top .text-block ul.specs li h2, .hero.text-top .text-block ul.specs, .tech_spec .tech_spec_wrap .product-dimensions td, .find-the-right .step-wrap .step-flow-contents .result .no-result-contents .no-result-wrap p, .search-wrap .search-result-area .search-result-list-wrap .no-result-wrap p, .where-to-buy .container .where-to-buy-info-wrap .where-to-buy-info h2, .find-the-right .step-wrap .step-flow-contents .big-tile-button .tile-box label span {
+    /*font-size:30px;*/
+    font-size:20px;
+    line-height:35px;
+}
+/* //LGEGMO-2859 20170425 modify */
+@media screen and (max-width:1439px) {
+    .module .text-block h1, .module .text-block h3, .feature-explorer-carousel > p, .call-to-action .slide h3, .feature-module .tit span {
+        /*font-size:70px*/
+        font-size:40px;
+        line-height:45px;
+    }
+    .refind-your-search .column2 h1, .press-release-wrap .press-release-head .title .title-head, .error-page .error-wrap .error-comment h1 {
+        /*font-size:60px;*/
+        font-size:34px;
+        line-height:49px;
+    }
+    .m15.contact .container-head .tit {
+        /*font-size:55px;*/
+        font-size:30px;
+        line-height:45px;
+    }
+    /* LGEGMO-2859 20170425 modify */
+    .hero .top-module-wrap .text-block h1, .where-to-buy .container .title-wrap .title, .site-map h1, .find-the-right .step-wrap .step-flow-contents h1, .recipie-detail .detail-content h1, .search-wrap .search-top-area .search-keyword, .static-content .title-wrap .title, .compare-view-item .compare-item .compare-count strong, .where-to-buy .container .title-wrap .title, .compare-view-item .compare-title {
+        /*font-size:50px;*/
+        font-size:28px;
+        line-height:45px;
+    }
+    /* //LGEGMO-2859 20170425 modify */
+    .module ul.specs li div, .key-feature h4, .stickynav .product_information .price_after, .tech_spec .tech_spec_wrap table caption, .search-wrap .search-result-area .search-result-list-wrap .list-group .matching-count p.title strong, .promotion-detail .guide-detail-info .detail-title, .error-404 .error-wrap .error-comment h3, .error-page .error-wrap .error-comment strong, .tech_spec .tech_spec_wrap .eco-title {
+        /*font-size:45px;*/
+        font-size:25px;
+        line-height:40px;
+    }
+    .m15.contact .content-block .content-title, .text-banner h3, .tech_spec .tech_spec_wrap .product-summary td, .static-content .type-paragraph .title {
+        /*font-size:36px;*/
+        font-size:20px;
+        line-height:35px;
+    }
+    .module .text-block h4, .module .text-block p, .module .text-block h2, .feature-explorer-carousel h3, .step-up-chart .chart-headline h2, .step-up-chart .chart-headline h3, .m14.module .container .title h3, .ask-answer h3, .my-search-box .search-title, .recipie-detail .detail-content .material dl dt, .where-to-buy .container .where-to-buy-info-wrap .where-to-buy-info .store-map-wrap .store-search-category > .title {
+        /*font-size:34px;*/
+        font-size:19px;
+        line-height:34px;
+    }
+    /* LGEGMO-2859 20170425 modify */
+    .module.m05 .slide-content .text-area p, .feature-explorer-carousel .item-image .item-caption, .homepage-content .hc-wrap .cont-box .caption, .feature-module p, .hero p, .hero.text-top .text-block ul.specs li h2, .hero.text-top .text-block ul.specs, .tech_spec .tech_spec_wrap .product-dimensions td, .find-the-right .step-wrap .step-flow-contents .result .no-result-contents .no-result-wrap p, .search-wrap .search-result-area .search-result-list-wrap .no-result-wrap p, .where-to-buy .container .where-to-buy-info-wrap .where-to-buy-info h2, .find-the-right .step-wrap .step-flow-contents .big-tile-button .tile-box label span {
+        /*font-size:30px;*/
+        font-size:17px;
+        line-height:32px;
+    }
+    /* //LGEGMO-2859 20170425 modify */
+}
+@media screen and (max-width:1023px) {
+    .module .text-block h1, .module .text-block h3, .feature-explorer-carousel > p, .call-to-action .slide h3, .feature-module .tit span {
+        /*font-size:70px*/
+        font-size:30px;
+        line-height:45px;
+    }
+    .refind-your-search .column2 h1, .press-release-wrap .press-release-head .title .title-head, .error-page .error-wrap .error-comment h1 {
+        /*font-size:60px;*/
+        font-size:25px;
+        line-height:40px;
+    }
+    .m15.contact .container-head .tit {
+        /*font-size:55px;*/
+        font-size:23px;
+        line-height:38px;
+    }
+    /* LGEGMO-2859 20170425 modify */
+    .hero .top-module-wrap .text-block h1, .where-to-buy .container .title-wrap .title, .site-map h1, .find-the-right .step-wrap .step-flow-contents h1, .recipie-detail .detail-content h1, .search-wrap .search-top-area .search-keyword, .static-content .title-wrap .title, .compare-view-item .compare-item .compare-count strong, .where-to-buy .container .title-wrap .title, .compare-view-item .compare-title {
+        /*font-size:50px;*/
+        font-size:21px;
+        line-height:36px;
+    }
+    /* //LGEGMO-2859 20170425 modify */
+    .module ul.specs li div, .key-feature h4, .stickynav .product_information .price_after, .tech_spec .tech_spec_wrap table caption, .search-wrap .search-result-area .search-result-list-wrap .list-group .matching-count p.title strong, .promotion-detail .guide-detail-info .detail-title, .error-404 .error-wrap .error-comment h3, .error-page .error-wrap .error-comment strong, .tech_spec .tech_spec_wrap .eco-title {
+        /*font-size:45px;*/
+        font-size:19px;
+        line-height:34px;
+    }
+    .m15.contact .content-block .content-title, .text-banner h3, .tech_spec .tech_spec_wrap .product-summary td, .static-content .type-paragraph .title {
+        /*font-size:36px;*/
+        font-size:15px;
+        line-height:30px;
+    }
+    .module .text-block h4, .module .text-block p, .module .text-block h2, .feature-explorer-carousel h3, .step-up-chart .chart-headline h2, .step-up-chart .chart-headline h3, .m14.module .container .title h3, .ask-answer h3, .my-search-box .search-title, .recipie-detail .detail-content .material dl dt, .where-to-buy .container .where-to-buy-info-wrap .where-to-buy-info .store-map-wrap .store-search-category > .title {
+        /*font-size:34px;*/
+        font-size:14px;
+        line-height:29px;
+    }
+    /* LGEGMO-2859 20170425 modify */
+    .module.m05 .slide-content .text-area p, .feature-explorer-carousel .item-image .item-caption, .homepage-content .hc-wrap .cont-box .caption, .feature-module p, .hero p, .hero.text-top .text-block ul.specs li h2, .hero.text-top .text-block ul.specs, .tech_spec .tech_spec_wrap .product-dimensions td, .find-the-right .step-wrap .step-flow-contents .result .no-result-contents .no-result-wrap p, .search-wrap .search-result-area .search-result-list-wrap .no-result-wrap p, .where-to-buy .container .where-to-buy-info-wrap .where-to-buy-info h2, .find-the-right .step-wrap .step-flow-contents .big-tile-button .tile-box label span {
+        /*font-size:30px;*/
+        font-size:12px;
+        line-height:27px;
+    }
+    /* //LGEGMO-2859 20170425 modify */
+}
+
+/* Request Repair */
+.step-list .step-content .two-column.focus-category.two-column-category { border:0px; }
+
+/*common*/
+/*fontSize*/
+.text-xlg { font-size: 30px !important;}
+.text-lg { font-size: 26px !important;}
+.text-md { font-size: 20px !important;}
+.is-mobile .text-xlg { font-size: 24px !important;}
+.is-mobile .text-lg { font-size: 20px !important;}
+.is-mobile .text-md { font-size: 18px !important;}
+/* margin&padding */
+.mgt-x1 { margin-top: 20px;!important;}
+.mgt-x1-5 { margin-top: 30px;!important;}
+.mgt-x2 { margin-top: 40px;!important;}
+.mgt-x2-5 { margin-top: 50px;!important;}
+.mgt-x3 { margin-top: 60px;!important;}
+.hspace { padding: 0 20px !important;}
+/*dl*/
+.dl-horizontal { overflow: hidden; }
+.dl-horizontal dt { float: left; }
+.dl-horizontal dd { margin-left: 0; float: left; overflow: hidden; }
+/*border*/
+.border-primary { border: 0;  border-top: solid 1px #bbb;}
+/*flex-box*/
+.flex-box { display: -webkit-box;}
+.flex-box>li { float: none; display: block; -webkit-box-flex: 1}
+/*custom*/
+:not(.is-mobile) .dl-horizontal dt{ width: 30%; }
+.is-mobile .vip-content .dl-horizontal dt { float: none; margin-bottom: 16px;}
+.is-mobile .vip-content .dl-horizontal dd { float: none; }
+.is-mobile .vip-content .two-column > div { float: none !important; width: 100% !important; }
+.is-mobile .vip-content .tab-box, .is-mobile .vip-content .vip-common-area { padding: 0 20px;}
+
+/*about lg css*/
+.section-head h1 {font-size:50px; line-height:65px;}
+.sub-section-head h2 {font-size:42px;line-height:57px;}
+.site_landing .columns h2.title {font-size:20px;line-height:35px;}
+.site_landing .columns p {margin:0; font-size:16px; line-height:22px;}
+
+#overview .link-con:hover, #overview .link-con:focus {color:#333;}
+
+@media screen and (max-width:1439px) {
+    .section-head h1 {font-size:44px; line-height:59px;}
+    .sub-section-head h2 {font-size:34px;line-height:49px;}
+}
+
+@media screen and (max-width:1023px) {
+
+    .section-head h1 {font-size:40px; line-height:55px;}
+    .sub-section-head h2 {font-size:25px;line-height:40px;}
+    .sticky-menu li a {padding:20px 5px; font-size:20px;}
+}
+
+.text-content-wrap p, .text-content-wrap ul {font-size:20px; line-height:30px;}
+
+.is-mobile .text-content-wrap p, .is-mobile .text-content-wrap ul {font-size:18px; line-height:30px;}
+.is-mobile .refind-apply-btn {margin-top:0;}
+.is-mobile .site_landing .columns p {font-size:18px;}
+
+
+
+#LGECNURLContainer, #LGECNERLContainer {width:100%; margin:0 auto; min-width:768px; max-width:1400px; padding:160px 35px 0; margin-top:-160px;}
+.is-mobile #LGECNURLContainer,
+.is-mobile #LGECNERLContainer {min-width:0; max-width:100%;}
+
+.is-mobile .static-content.privacy .row-group .anchor-cont h2 .tab-button,
+.is-mobile .static-content.legal .row-group .anchor-cont h2 .tab-button {display:none;}
+
+.swatch.xiaoxiaodou {background:url('/cn/content/img/colorchip/colorchip_cn.jpg') no-repeat 0 0; border:1px solid #333}
+.swatch.deluxeWhite {background:url('/cn/content/img/colorchip/colorchip_cn.jpg') no-repeat 0 0; border:1px solid #333}
+.swatch.taocibai {background:url('/cn/content/img/colorchip/colorchip_cn.jpg') no-repeat 0 0; border:1px solid #333}
+.swatch.pearlWhite {background:url('/cn/content/img/colorchip/colorchip_cn.jpg') no-repeat 0 0; border:1px solid #333}
+.swatch.wineRed {background:url('/cn/content/img/colorchip/colorchip_cn.jpg') no-repeat -14px 0}
+.swatch.Red {background:url('/cn/content/img/colorchip/colorchip_cn.jpg') no-repeat -14px 0}
+.swatch.pearlRed {background:url('/cn/content/img/colorchip/colorchip_cn.jpg') no-repeat -28px 0}
+.swatch.darkRed {background:url('/cn/content/img/colorchip/colorchip_cn.jpg') no-repeat -28px 0}
+.swatch.cinnamon {background:url('/cn/content/img/colorchip/colorchip_cn.jpg') no-repeat -28px 0}
+.swatch.titanium {background:url('/cn/content/img/colorchip/colorchip_cn.jpg') no-repeat -42px 0}
+.swatch.silkGray {background:url('/cn/content/img/colorchip/colorchip_cn.jpg') no-repeat -42px 0}
+.swatch.meijinbai {background:url('/cn/content/img/colorchip/colorchip_cn.jpg') no-repeat 0 0; border:1px solid #333}
+.swatch.purple {background:url('/cn/content/img/colorchip/colorchip_cn.jpg') no-repeat -70px 0}
+.swatch.yellow {background:url('/cn/content/img/colorchip/colorchip_cn.jpg') no-repeat -84px 0}
+.swatch.huangxiaodi {background:url('/cn/content/img/colorchip/colorchip_cn.jpg') no-repeat -84px 0}
+.swatch.gold {background:url('/cn/content/img/colorchip/colorchip_cn.jpg') no-repeat -84px 0}
+.swatch.Gold {background:url('/cn/content/img/colorchip/colorchip_cn.jpg') no-repeat -84px 0}
+.swatch.fuguzong {background:url('/cn/content/img/colorchip/colorchip_cn.jpg') no-repeat -98px 0}
+.swatch.pearlSilver {background:url('/cn/content/img/colorchip/colorchip_cn.jpg') no-repeat -112px 0}
+.swatch.shensuihei {background:url('/cn/content/img/colorchip/colorchip_cn.jpg') no-repeat -126px 0}
+.swatch.Violet {background:url('/cn/content/img/colorchip/colorchip_cn.jpg') no-repeat -140px 0}
+.swatch.zunguihong {background:url('/cn/content/img/colorchip/colorchip_cn.jpg') no-repeat -154px 0}
+.swatch.xingjihei {background:url('/cn/content/img/colorchip/colorchip_cn.jpg') no-repeat -168px 0}
+.swatch.titaniumGray {background:url('/cn/content/img/colorchip/colorchip_cn.jpg') no-repeat -182px 0}
+.swatch.silver {background:url('/cn/content/img/colorchip/colorchip_cn.jpg') no-repeat -196px 0}
+.swatch.red {background:url('/cn/content/img/colorchip/colorchip_cn.jpg') no-repeat -210px 0}
+.swatch.pink {background:url('/cn/content/img/colorchip/colorchip_cn.jpg') no-repeat -224px 0}
+.swatch.blue {background:url('/cn/content/img/colorchip/colorchip_cn.jpg') no-repeat -238px 0}
+.swatch.lanxiaodiao {background:url('/cn/content/img/colorchip/colorchip_cn.jpg') no-repeat -252px 0}
+.swatch.gray {background:url('/cn/content/img/colorchip/colorchip_cn.jpg') no-repeat -266px 0}
+/* LGECN-1998 20160321 add */
+.swatch.bingyueSilver {background:url('/cn/content/img/colorchip/colorchip_cn.jpg') no-repeat -280px 0;}
+.swatch.liuguagnGold {background:url('/cn/content/img/colorchip/colorchip_cn.jpg') no-repeat -294px 0;}
+.swatch.huayangPink {background:url('/cn/content/img/colorchip/colorchip_cn.jpg') no-repeat -308px 0;}
+.swatch.Titan {background:url('/cn/content/img/colorchip/colorchip_cn.jpg') no-repeat -322px 0;}
+/* //LGECN-1998 20160321 add */
+
+.swatch.large.xiaoxiaodou {background:url('/cn/content/img/colorchip/colorchip_large_cn.jpg') no-repeat 0 0; border:1px solid #333;}
+.swatch.large.deluxeWhite {background:url('/cn/content/img/colorchip/colorchip_large_cn.jpg') no-repeat 0 0; border:1px solid #333;}
+.swatch.large.taocibai {background:url('/cn/content/img/colorchip/colorchip_large_cn.jpg') no-repeat 0 0; border:1px solid #333;}
+.swatch.large.pearlWhite {background:url('/cn/content/img/colorchip/colorchip_large_cn.jpg') no-repeat 0 0; border:1px solid #333;}
+.swatch.large.wineRed {background:url('/cn/content/img/colorchip/colorchip_large_cn.jpg') no-repeat -22px 0;}
+.swatch.large.Red {background:url('/cn/content/img/colorchip/colorchip_large_cn.jpg') no-repeat -22px 0;}
+.swatch.large.pearlRed {background:url('/cn/content/img/colorchip/colorchip_large_cn.jpg') no-repeat -44px 0;}
+.swatch.large.darkRed {background:url('/cn/content/img/colorchip/colorchip_large_cn.jpg') no-repeat -44px 0;}
+.swatch.large.cinnamon {background:url('/cn/content/img/colorchip/colorchip_large_cn.jpg') no-repeat -44px 0;}
+.swatch.large.titanium {background:url('/cn/content/img/colorchip/colorchip_large_cn.jpg') no-repeat -66px 0;}
+.swatch.large.silkGray {background:url('/cn/content/img/colorchip/colorchip_large_cn.jpg') no-repeat -66px 0;}
+.swatch.large.meijinbai {background:url('/cn/content/img/colorchip/colorchip_large_cn.jpg') no-repeat 0 0; border:1px solid #333}
+.swatch.large.purple {background:url('/cn/content/img/colorchip/colorchip_large_cn.jpg') no-repeat -110px 0;}
+
+.swatch.large.yellow {background:url('/cn/content/img/colorchip/colorchip_large_cn.jpg') no-repeat -132px 0;}
+.swatch.large.huangxiaodi {background:url('/cn/content/img/colorchip/colorchip_large_cn.jpg') no-repeat -132px 0;}
+.swatch.large.gold {background:url('/cn/content/img/colorchip/colorchip_large_cn.jpg') no-repeat -132px 0;}
+.swatch.large.Gold {background:url('/cn/content/img/colorchip/colorchip_large_cn.jpg') no-repeat -132px 0;}
+.swatch.large.fuguzong {background:url('/cn/content/img/colorchip/colorchip_large_cn.jpg') no-repeat -154px 0;}
+.swatch.large.pearlSilver {background:url('/cn/content/img/colorchip/colorchip_large_cn.jpg') no-repeat -176px 0;}
+.swatch.large.shensuihei {background:url('/cn/content/img/colorchip/colorchip_large_cn.jpg') no-repeat -198px 0;}
+.swatch.large.Violet {background:url('/cn/content/img/colorchip/colorchip_large_cn.jpg') no-repeat -220px 0;}
+.swatch.large.zunguihong {background:url('/cn/content/img/colorchip/colorchip_large_cn.jpg') no-repeat -242px 0;}
+.swatch.large.xingjihei {background:url('/cn/content/img/colorchip/colorchip_large_cn.jpg') no-repeat -264px 0;}
+.swatch.large.titaniumGray {background:url('/cn/content/img/colorchip/colorchip_large_cn.jpg') no-repeat -286px 0;}
+.swatch.large.silver {background:url('/cn/content/img/colorchip/colorchip_large_cn.jpg') no-repeat -308px 0;}
+.swatch.large.red {background:url('/cn/content/img/colorchip/colorchip_large_cn.jpg') no-repeat -330px 0;}
+.swatch.large.pink {background:url('/cn/content/img/colorchip/colorchip_large_cn.jpg') no-repeat -352px 0;}
+.swatch.large.blue {background:url('/cn/content/img/colorchip/colorchip_large_cn.jpg') no-repeat -374px 0;}
+.swatch.large.lanxiaodiao {background:url('/cn/content/img/colorchip/colorchip_large_cn.jpg') no-repeat -396px 0;}
+.swatch.large.gray {background:url('/cn/content/img/colorchip/colorchip_large_cn.jpg') no-repeat -418px 0;}
+/* LGECN-1998 20160321 add */
+.swatch.large.bingyueSilver {background:url('/cn/content/img/colorchip/colorchip_large_cn.jpg') no-repeat 0 -22px;}
+.swatch.large.liuguagnGold {background:url('/cn/content/img/colorchip/colorchip_large_cn.jpg') no-repeat -22px -22px;}
+.swatch.large.huayangPink {background:url('/cn/content/img/colorchip/colorchip_large_cn.jpg') no-repeat -44px -22px;}
+.swatch.large.Titan {background:url('/cn/content/img/colorchip/colorchip_large_cn.jpg') no-repeat -66px -22px;}
+/* //LGECN-1998 20160321 add */
+
+.m15.contact .container-head p {font-size:23px; line-height:28px}
+
+.survey .step.end .step-scroll, .survey .step.start .step-scroll{max-height:490px;height:490px;}
+/* .survey .step .step-inner .middle-text li {width:33%;}
+.survey .step .step-inner .middle-text li:first-child > div {padding: 25px 30px 0 30px;}
+.survey .step .step-inner .middle-text li > div {padding: 25px 30px 0 30px;}
+.survey-link li {width:33%;border-right: 1px solid #ddd;}
+.survey-link li:last-child {border:0;} */
+.survey .step .step-inner .middle-text li p {padding-top: 30px;margin: 0;text-align: center;}
+.survey .step.end .step-scroll, .survey .step.start .step-scroll {max-height:530px;height:530px;}
+.survey .step.start .step-inner {padding:4.5rem 7rem;}
+
+.padT50 { padding-top:5rem !important;}
+.padT95 { padding-top:9.5rem !important; }
+.padT136 { padding-top:13.6rem !important; }
+.padL15 { padding-left:15px !important;}
+.marginT140 { margin-top:14rem !important; }
+.width100per { width:100% !important; }
+.height95 { height:9.5rem !important; }
+.height118 { height:11.8rem !important; }
+
+
+.three-commitments-content {text-align:center}
+.three-commitments-content .content-image img {margin-bottom:30px}
+.three-commitments-content .content_video {
+    background:url(/cn/about-lg/img/three-commitments/promise3_img4.jpg) 2px 0 repeat-x;
+    height:0;
+    position:relative;
+    padding-bottom: 55.88%;
+    max-width: 960px;
+    margin:0 auto;
+    width: 100%;
+}
+.three-commitments-content .content_video > div {
+    height:0;
+    padding-bottom: 52%;
+    max-width:800px;
+    margin:0 auto;
+    position: relative;
+    width: 100%;
+}
+
+.three-commitments-content .content_video object {position:absolute; top:0; left:0}
+
+/* LGECN-1741 20150810 add */
+.popup_wrap {float:left; position:relative;width:100%;}
+.popup_wrap img{width:100%;}
+.popup_wrap .bottom {clear:both; overflow:hidden; height:30px; background-color:#d30e43; color:#fff; font-size:11px; vertical-align:middle;min-width:600px}
+.popup_wrap .bottom label#chklabel {float:left; padding:1px 5px 0 5px; line-height:30px;}
+.popup_wrap .bottom label#chklabel input{margin:-1px 5px 0 0; vertical-align:middle;}
+.popup_wrap .bottom .close {float:right;display:block; height:30px; padding:1px 15px 0; line-height:30px; color:#fff; text-align:center; text-decoration:none;}
+/* //LGECN-1741 20150810 add */
+
+
+
+
+.is-mobile .repair-service-center #directionResultRoute {margin-left:10px; }
+.repair-service-center #directionResultRoute table {width:100%; }
+
+.step-list .step-content .two-column.active-category .select-product {border:0px !important;}
+
+
+.download-info .download-link li a span {white-space: nowrap;}
+
+
+
+
+
+/* LGECN-2007  20160328 add*/
+#appFooter .footer-content .five-column > section,#appFooter .footer-content .four-column > section {padding-bottom: 55px}
+#appFooter .footer-link {width: 100%;text-align: right}
+#appFooter .footer-link ul li {display: inline-block;padding: 0 10px 0 10px}
+.footer-link {background: #e9ecf0 none repeat scroll 0 0}
+.footer-link ul {margin: 0 10% 0 0;padding: 20px 0;text-align: right;}
+.footer-link strong{vertical-align:top}
+.footer-link .link-text{margin:-20px 0 0 38px;position:absolute;display:block}
+
+.is-mobile .footer-link ul {margin: 0 auto;text-align: center;}
+.footer-link ul span{float:left;text-align:left;font-size:13px}
+@media screen and (max-width: 47.9375em) {
+    .footer-link ul {margin: 0 auto;text-align: center}
+}
+/* //LGECN-2007  20160328 add*/
+
+/* LGECN-2072 20160718*/
+body:not(.is-mobile) .service-policy .tab-style ul.tab4 li{width:25%}
+.service-policy .content-wrap span{margin-top:10px;display:inline-block;}
+.service-policy .content-wrap .inTable{display:inline-table;margin-top:10px;}
+/* //LGECN-2072 20160718*/
+
+/* LGECN-2077  20160812 add */
+.is-mobile .service-policy .service-policy-content .content-inner .content-wrap .table-style-col {
+    min-width: 0;
+}
+.is-mobile .service-policy .service-policy-content .content-inner .content-wrap .table-style-col td, 
+.is-mobile .service-policy .service-policy-content .content-inner .content-wrap .table-style-col th {
+    font-size: 5px;
+    word-break: inherit;
+    padding: 5px 3px;
+    font-weight: normal;
+    line-height: 120%;
+}
+/* //LGECN-2077  20160812 add */
+
+/* PJTBTOBCSR-138 */
+/* warranty */
+.warranty-b2b.support-content .container .warranty { padding-top:70px; }
+.warranty-b2b.support-content .container .warranty .warranty-content #Cruise-Warranty .content-inner a,
+.warranty-b2b.support-content .container .warranty .warranty-content #Cruise-Warranty .content-inner th,
+.warranty-b2b.support-content .container .warranty .warranty-content #Cruise-Warranty .content-inner td { font-family:'LG Smart' !important; font-size:20px; line-height:28px; }
+.warranty-b2b.support-content .container .warranty .warranty-content #Cruise-Warranty .content-inner strong { font-family:'LG Smart SemiBold' !important; }
+.is-mobile .warranty-b2b.support-content .container .warranty { padding-top:0; }
+.is-mobile .warranty-b2b.support-content .container #Limited-Warranty-inner .content-inner {padding:15px 20px 0;}
+.is-mobile .warranty-b2b.support-content .container #Guidance-for-Cruise-Warranty .content-inner {padding:0 20px;}
+.is-mobile .warranty-b2b.support-content .container .warranty .warranty-content #Cruise-Warranty .content-inner a,
+.is-mobile .warranty-b2b.support-content .container .warranty .warranty-content #Cruise-Warranty .content-inner th,
+.is-mobile .warranty-b2b.support-content .container .warranty .warranty-content #Cruise-Warranty .content-inner td { font-size:16px; line-height:22px; }
+.is-mobile .warranty-b2b.support-content .container .warranty .warranty-content #Cruise-Warranty .content-inner .tit-point a { font-size:18px; line-height:1; }
+/* //PJTBTOBCSR-138  */
+/* LGECN-2162 : 20170419 add */
+.module.m28 .container .carousel .slide .slide-inner .copy-area .pooduct-item-text .model-name {line-height: 1.18em;font-size: 17px;}
+/* //LGECN-2162 : 20170419 add */
+
+/* LGECN-2169 20170519 add */
+.appHeader .primary-nav ul.primary-nav-list>li.signature-inline>a{display:table-cell !important;}
+html.mac .appHeader .primary-nav ul.primary-nav-list>li.signature-inline>a{width:auto;}
+/*// LGECN-2169 20170519 add */

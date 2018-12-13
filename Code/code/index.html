@@ -1,0 +1,252 @@
+
+<!--Created by 10446 on 2017/5/26.-->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Home Appliance Sales</title>
+		<link rel="stylesheet" href="plugin/layui/css/layui.css" />
+		<script type="text/javascript" src="js/jquery-3.2.0.min.js" ></script>
+		<script type="text/javascript" src="plugin/layui/layui.js" ></script>
+		<script type="text/javascript" src="js/vue.js" ></script>
+		<link rel="stylesheet" href="icons/iconfont.css" />
+		<link rel="stylesheet" href="icons/icon_foot/iconfont.css" />
+		<link rel="stylesheet" href="icons/icon_foot_thank/iconfont.css" />
+		
+		<link rel="stylesheet" href="plugin/layer/skin/default/layer.css" />
+		<script type="text/javascript" src="plugin/layer/layer.js" ></script>
+		<link rel="stylesheet" href="css/swiper.min.css" />
+		<link rel="stylesheet" href="css/indexcss.css" />
+
+	</head>
+	<body>
+		<div class="content ">
+			<div class="layui-header ">
+				<header class="header">
+					
+				
+				
+					<ul class="layui-nav" lay-filter="">
+						<div class="icon">
+							<span><img src="img/icon.png"/></span>
+						</div>
+						<li class="layui-nav-item layui-this  ">
+							
+							<a href=""><span class="icon-type"><i class="iconfont icon-zhuye "></i></span>{{homepage}}</a>
+						</li>
+						<li class="layui-nav-item  ">
+							
+							<a href="product/tv/"><span class="icon-type"><i class="iconfont icon-webicondianshiji "></i></span>{{television}}</a>
+						</li>
+						<li class="layui-nav-item">
+							<a href="product/refrigerator/"><span class="icon-type"><i class="iconfont icon-bingxiang1 "></i></span>{{refrigerator}}</a>
+						</li>
+						<li class="layui-nav-item">
+							<a href="product/washingmachine/"><span class="icon-type"><i class="iconfont icon-xiyiji1 "></i></span>{{washingmachine}}</a>
+						</li>
+						<li class="layui-nav-item">
+							<a href="product/aircleaner/"><span class="icon-type"><i class="iconfont icon-kongqijinghuaqi "></i></span>{{aircleaner}}</a>
+						</li>
+						<li class="layui-nav-item">
+							<a href="product/vaccumcleaner/"><span class="icon-type"><i class="iconfont icon-xichenqi "></i></span>{{vaccumcleaner}}</a>
+						</li>
+						<li class="layui-nav-item">
+							<a href="product/airconditioner/"><span class="icon-type"><i class="iconfont icon-kongtiao "></i></span>{{airconditioner}}</a>
+						</li>
+						
+						<li class="layui-nav-item">
+							<a href="javascript:;"><span class="icon-type"><i class="iconfont icon-iconfontdiqiu "></i></span>{{language}}</a>
+							<dl class="layui-nav-child">
+								<!-- 二级菜单 -->
+								<dd>
+									<a href="#" onclick="changeLanguage('en-En')"><span class="icon-type"><i class="iconfont icon-yingwen "></i></span>English</a>
+								</dd>
+								<dd>
+									<a href="#" onclick="changeLanguage('zh-Cn')"><span class="icon-type"><i class="iconfont icon-zhongwen "></i></span>中文</a>
+								</dd>
+							</dl>
+						</li>
+						<li class="layui-nav-item">
+							<a href="#" onclick="showQRcode(this)"><span class="icon-type"><i class="iconfont icon-lianxi "></i></span>{{contactus}}</a>
+						</li>
+						<div class="clearfix">
+							<span class="icon-type " onclick="login()"><i class="iconfont icon-wo "></i>{{account}}</span>
+							<span class="icon-type " onclick="cart()"><i class="iconfont icon-gouwuche"></i>{{cart}}</span>
+			</div>
+						
+						
+					</ul>
+			
+
+			</header>
+			
+			
+			</div>
+			<!--标题栏的-->
+			
+			<div class="wrap-content">
+				
+				<div class="swiper">
+					<link rel="stylesheet" href="css/swipercss.css" />
+					
+					
+					<div class="swiper-container" dir="rtl">
+				        <div class="swiper-wrapper">
+				        	<div class="swiper-slide">
+				        		<div class="swiper-dt1">
+									<span>Air Conditioner</span><br  />
+									<div class="btn-div">
+									<span class="btn btn-whitetoblack">More Info</span>
+									</div>
+								</div>
+				        		<div class="swiper-content"><img width="100%"  src="img/aircondition/conditioner1900.png" /></div>
+				        	</div>
+				        	<div class="swiper-slide">
+				        		<div class="swiper-dt2">
+									<span>Refrigerator</span><br  />
+									<div class="btn-div">
+									<span class="btn btn-whitetoblack">More Info</span>
+									</div>
+								</div>
+				        		<div class="swiper-content"><img width="100%" src="img/refrigerator/refri_1900.jpg" /></div>
+				        	</div>
+				        	<div class="swiper-slide">
+				        		<div class="swiper-dt3">
+									<span>Refrigerator</span><br  />
+									<div class="btn-div">
+									<span class="btn btn-whitetoblack">More Info</span>
+									</div>
+								</div>
+				        		<div class="swiper-content"><img width="100%" src="img/refrigerator/refri_2_1900.jpg" /></div>
+				        	</div>
+				        	<div class="swiper-slide">
+				        		<div class="swiper-dt4">
+									<span>Vaccum Cleaner</span><br  />
+									<div class="btn-div">
+									<span class="btn btn-blacktowhite">More Info</span>
+									</div>
+								</div>
+				        		<div class="swiper-content"><img width="100%" src="img/vaccumcleaner/vaccumcleaner1900.jpg" /></div>
+				        	</div>
+				        	<div class="swiper-slide">
+				        		<div class="swiper-dt5">
+									<span>Washing Machine</span><br  />
+									<div class="btn-div">
+									<span class="btn btn-blacktowhite">More Info</span>
+									</div>
+								</div>
+				        		<div class="swiper-content"><img width="100%" src="img/washingmechine/washingmechine1900.jpg" /></div>
+				        	</div>
+				        </div>
+				        <!-- Add Pagination -->
+				        <div class="swiper-pagination"></div>
+				    </div>
+				    	<script type="text/javascript" src="js/swiper.js" ></script>	
+				    	<script>        
+
+						    var swiper = new Swiper('.swiper-container', {
+						    	width : window.innerWidth,
+						    	autoHeight: true,
+						        pagination: '.swiper-pagination',
+						        paginationClickable: true,
+						        autoplay:5000,
+						        preloadImages:true,
+						        loop:true,
+						        autoplayDisableOnInteraction : false,
+						        initialSlide:4,
+						    });
+						  </script>
+				</div>
+				
+				<div class="main-content">
+					<div class="inner inner-pic2">
+						
+					</div>
+					<div class="inner inner-pic1">
+						
+					</div>
+					<div class="inner inner-pic3">
+						
+					</div>
+					<div class="inner inner-pic4">
+						<div class="text-black">
+							<h4>
+								<strong>Professional Engineers</strong>
+								</h4>
+								<p>Door-to-Door<br />Installation<br />Intimate Service</p>
+														
+						</div>
+					</div>
+				</div>
+				
+				
+				<!--主要内容-->
+			</div>
+			<div class="foot">
+				<div class="footer-content">
+					<div class="foot1">
+						<div class="thank">
+							<i class="iconfont icon-google"></i>
+							<span>Font From Google</span>
+							|
+							<i class="iconfont icon-vue"></i>
+							<span>Front Frame Vue</span>
+							|
+							<i class="iconfont icon-sanxing"></i>
+							<span>Pics From Samsung</span>
+							|
+							<i class="iconfont icon-alibaba"></i>
+							<span>Icons From Alibaba</span>
+							<br  />
+							<i class="iconfont icon-mi"></i>
+							<span>Cart From Xiaomi</span>
+							|
+							<i class="iconfont icon-ui"></i>
+							<span>Navigation From LayUI</span>
+							|
+							<i class="iconfont icon-github2"></i>
+							<span>Jquery From Git</span>
+							|
+							<i class="iconfont icon-baidu"></i>
+							<span>Searched From Baidu</span>
+							|
+						</div>
+						
+					</div>
+					<hr />
+					<div class="footsharp">
+					<p>
+												*
+						Accessories contain the necessary fittings and materials for general installation, but the installation process can
+						
+						You can use other accessory materials according to the actual situation and charge separately
+					</p>
+					</div>
+					<hr />
+					<div class="foot2">
+						<div class="foot-license">
+						This WebSite is open On GitHub <a href="https://github.com/zhangcy4553/FinalHtml5Program"><span class="link" style="color: lightblue;">Link</span></a>
+						(Order MIT License)
+						--Developed By Allen
+						<a href="http://weibo.com/6044946631/profile" style="color: #999;"><i class=" iconfont icon-weibo3"></i>Weibo</a>
+						</div>
+						<div class="foot-icon" >
+							<a href="https://github.com/zhangcy4553/FinalHtml5Program" style="color: #999;"><i class=" iconfont icon-github1"></i>Git</a>
+							
+							<a href="http://www.a113n.cn/node" style="color: #999;"><i class=" iconfont icon-lianjie"></i></a>(To Index)
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+		<script type="text/javascript" src="js/language.js" ></script>
+		<script type="text/javascript" src="js/somefunction.js" ></script>
+		<script type="text/javascript" src="js/initLayui.js" ></script>
+
+</body>
+
+</html>

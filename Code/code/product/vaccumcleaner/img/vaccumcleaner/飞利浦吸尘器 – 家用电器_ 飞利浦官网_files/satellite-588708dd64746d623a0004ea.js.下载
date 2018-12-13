@@ -1,0 +1,55 @@
+_satellite.pushAsyncScript(function(event, target, $variables){
+  if (typeof _satellite.getVar('floodlight_pageview') !== 'undefined') {
+	
+	/*
+		Change the type and cat here for each tag
+	*/
+	var type = 'pageview';
+	var cat = 'pageview';
+	var name = 'floodlight_pageview';
+	
+	var account = '6417571';
+	if (philips && philips.context && philips.context.url && philips.context.url.repositoryPath && philips.context.url.repositoryPath.indexOf('catalog/li/') > -1) {
+		account = '5627815';
+	}
+	
+	/*
+		Do not change
+	*/
+	var axel = Math.random();
+	var a = axel * 10000000000000;
+	var ulist = _satellite.getVar(name);
+	var src = 'https://' + account + '.fls.doubleclick.net/activityi;src=' + account + ';type=' +
+	  	type +
+		';cat=' +
+		cat +
+		';' +
+		ulist +
+		'dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;ord=' +
+		a +
+		'?';
+	
+	src = src.replace(src.match(/u18.*;u19/g)[0],'u18=;u19');
+	if(src.indexOf(';cost')>-1){
+		src = src.replace(src.match(/;cost=.*dc_lat/g)[0],';dc_lat');
+	}
+	
+	var iframe = document.createElement('iframe');
+	iframe.style.display = "none";
+	iframe.style.width = "1";
+	iframe.style.height = "1";
+	iframe.style.frameborder = "0";
+	iframe.src = src;
+	document.body.appendChild(iframe);
+	
+    //Adwords conversion
+	if (account === '6417571') {
+		var i = new Image();
+		i.src = '//googleads.g.doubleclick.net/pagead/viewthroughconversion/1063708080/?guid=ON&script=0';
+		i.width='1';
+		i.height='1';
+		i.style.display = 'none';
+		document.body.appendChild(i);
+	}
+}
+});
